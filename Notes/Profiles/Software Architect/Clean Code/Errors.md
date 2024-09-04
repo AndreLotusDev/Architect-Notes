@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: segunda-feira, setembro 2º 2024, 9:17:58 am
-date modified: segunda-feira, setembro 2º 2024, 9:20:58 am
+date modified: terça-feira, setembro 3º 2024, 12:27:40 am
 ---
 Geralmente tratamento de erro se torna bem especifico dependendo da linguagem, plataforma e framework, todavia existem algumas coisas genéricas que podem ser pontuadas.
 
@@ -13,3 +13,9 @@ Geralmente tratamento de erro se torna bem especifico dependendo da linguagem, p
 		- Filtros, interceptions, middlewares.
 - Retorne exceptions e não código de erro.
 - Informe o máximo que puder em sua exception.
+	- Por exemplo, no .NET temos o stack trace que mostra o caminho percorrido pelo erro.
+- Se necessário crie exceptions personalizadas para um problema específico.
+- Não retorne null. é má pratica.
+
+- Regra dos escoteiros: 
+	- "Deixe a área de acampamentos mais limpa de como você a encontrou."
